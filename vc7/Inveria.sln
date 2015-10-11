@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Inveria", "Inveria.vcproj", "{98DA3A4F-E4AA-43C9-A11B-B74D3FAF9DA5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test", "Test.vcproj", "{253D3E0E-37DA-4CA8-BB59-B60CC3C83046}"
+	ProjectSection(ProjectDependencies) = postProject
+		{98DA3A4F-E4AA-43C9-A11B-B74D3FAF9DA5} = {98DA3A4F-E4AA-43C9-A11B-B74D3FAF9DA5}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98DA3A4F-E4AA-43C9-A11B-B74D3FAF9DA5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{98DA3A4F-E4AA-43C9-A11B-B74D3FAF9DA5}.Debug|Win32.Build.0 = Debug|Win32
+		{98DA3A4F-E4AA-43C9-A11B-B74D3FAF9DA5}.Release|Win32.ActiveCfg = Release|Win32
+		{98DA3A4F-E4AA-43C9-A11B-B74D3FAF9DA5}.Release|Win32.Build.0 = Release|Win32
+		{253D3E0E-37DA-4CA8-BB59-B60CC3C83046}.Debug|Win32.ActiveCfg = Debug|Win32
+		{253D3E0E-37DA-4CA8-BB59-B60CC3C83046}.Debug|Win32.Build.0 = Debug|Win32
+		{253D3E0E-37DA-4CA8-BB59-B60CC3C83046}.Release|Win32.ActiveCfg = Release|Win32
+		{253D3E0E-37DA-4CA8-BB59-B60CC3C83046}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
